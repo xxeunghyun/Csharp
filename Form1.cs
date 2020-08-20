@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ex5
+namespace ex3_sumandmult
 {
     public partial class Form1 : Form
     {
@@ -17,44 +17,49 @@ namespace ex5
             InitializeComponent();
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //결과
         private void button1_Click(object sender, EventArgs e)
         {
-            /*
-            1과 자기자신 외의 나누어떨어지면 X  
-            */
-
             try
             {
-                int data = int.Parse(textBox1.Text);
-                bool prime = true;
+                int start = int.Parse(textBox1.Text);
+                int end = int.Parse(textBox2.Text);
+                int mul = -1;
+                int sum = 0;
 
-                if (data < 2)
-                {
-                    label1.Text = "2 이상의 숫자만 입력가능";
-                }
+
+                if (start > end)
+                    label3.Text = "시작값은 마지막값보다 작은 값이어야 합니다!";
+
                 else
                 {
-                    for (int i = 2; i < data; i++) // 1, 자기자신이 X 구간
+                    label3.Text = start.ToString() + "부터 " + end.ToString() + "까지의 ";
+
+                    for (int i = start; i <= end; i++)
                     {
-                        if (data % i == 0)
-                            prime = false;
+                        sum += i;
+                        mul *= i;
                     }
-                
+                        label3.Text += "합은 " + sum.ToString() + "이고\n곱은 " + mul.ToString() + "입니다.";
 
-                    if (prime == true)
-                        label1.Text = data.ToString() + "은 소수입니다.";
-                    else label1.Text = data.ToString() + "은 소수가 아닙니다";
-
+                    /*for(int j = start; j <= end; j++)
+                    {
+                        mul *= j;
+                    }
+                    label3.Text += "곱은 " + mul.ToString() + "입니다.";*/
                 }
                 
             }
-
+            
             catch(Exception ex)
             {
-                label1.Text = ex.Message + "\n다시 입력해주세요";
-                
+                label3.Text = ex.Message;
             }
-
         }
 
         //종료
@@ -62,5 +67,7 @@ namespace ex5
         {
             Application.Exit();
         }
+
+       
     }
 }
