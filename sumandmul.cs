@@ -48,6 +48,7 @@ namespace ex3_sumandmult
                         sum += i;
                         mul *= i;
                     }
+                    
                     label3.Text += "합은 " + sum.ToString() + "이고\n곱은 " + mul.ToString() + "입니다.";
 
                     /*for(int j = start; j <= end; j++)
