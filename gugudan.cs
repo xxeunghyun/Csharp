@@ -58,6 +58,7 @@ namespace ex2
                 label3.Text = ex.Message + "\n잘못 입력하셨습니다.";
             }
         }
+        
         //종료
         private void button2_Click(object sender, EventArgs e)
         {
