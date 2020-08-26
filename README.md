@@ -1,21 +1,22 @@
 # Csharp
+# C#
 
-# github
+### <개요>
 
-## check out my progress                    what each emoji means
+- used tool : visual studio 2017
+- used form : windows form app
+- studying period : 17th Aug 2020~ (still working on it)
 
----
+### <목록>
 
-[C](github%20d6960279c3994c3eafd73ebaec43adef/C%2095d92c3da00d4773886d840cbe38614d.md)
+[17Aug2020](C#%2003503b3137804e2db245ba8890012704/17Aug2020%20b3e2ebb91c2346298e803902a1e03080.md)
 
-[C# ](github%20d6960279c3994c3eafd73ebaec43adef/C#%2003503b3137804e2db245ba8890012704.md)
+[20Aug2020](C#%2003503b3137804e2db245ba8890012704/20Aug2020%20fa92a74513854b819c5d3fb02c6bfa40.md)
 
----
+[24Aug2020](C#%2003503b3137804e2db245ba8890012704/24Aug2020%20d2d9da1af215421b98e0d43aff44969c.md)
 
-cross - working on
+### <참고 링크>
 
-peace - done
+- 웹사이트에서 날짜와 각 목차제목으로 확인 가능
 
-punch - challenging / soon
-
-![github%20d6960279c3994c3eafd73ebaec43adef/Untitled.png](github%20d6960279c3994c3eafd73ebaec43adef/Untitled.png)
+    [xxeunghyun/Csharp_basics](https://github.com/xxeunghyun/Csharp_basics)
