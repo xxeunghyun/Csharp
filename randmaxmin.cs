@@ -23,7 +23,7 @@ namespace random
             int i;
             int[] array = new int[10];
             System.Random randata = new System.Random();
-            int max=0,min=100;
+            int max=0,min=100; 
 
             for(i=0;i<10;i++)
             {
@@ -33,6 +33,7 @@ namespace random
 
             label1.Text = "";
 
+            //or max=array[0], min=array[0] here
             for(i=0;i<10;i++)
             {
                 label1.Text += " iarray[" + i.ToString() + "] = " + array[i].ToString() + "        ";
