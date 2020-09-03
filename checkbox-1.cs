@@ -18,16 +18,6 @@ namespace _1
         {
             InitializeComponent();
 
-
-            chkbx = new CheckBox[SIZE];
-
-            // 0~size - 1    checkbox 1~size
-            chkbx[0] = checkBox1;
-            chkbx[1] = checkBox2;
-            chkbx[2] = checkBox3;
-            chkbx[3] = checkBox4;
-            chkbx[4] = checkBox5;
-            chkbx[5] = checkBox6;
         }
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
@@ -46,16 +36,7 @@ namespace _1
         {
             listBox2.Items.Clear(); //안에 내용 비우기
 
-            int i;
-
-            for(i=0;i<SIZE;i++)
-            {
-                if(chkbx[i].Checked == true)
-                {
-                    listBox2.Items.Add(chkbx[i].Text);
-                }
-            }
-            /*
+            
              if (checkBox1.Checked == true)
                   listBox2.Items.Add(checkBox1.Text);
 
@@ -73,7 +54,7 @@ namespace _1
 
               if (checkBox6.Checked == true)
                   listBox2.Items.Add(checkBox6.Text);
-                  */
+                  
         }
     }
 }
