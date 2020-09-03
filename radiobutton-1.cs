@@ -39,24 +39,6 @@ namespace _2
                 label1.Text += radioButton3.Text;
             }
 
-            //combo box 
-            /*if(comboBox1.SelectedIndex == 0)
-            {
-                label2.Text += comboBox1.Text;
-            }
-
-            else if (comboBox1.SelectedIndex == 1)
-            {
-                label2.Text += comboBox1.Text;
-            }
-
-            else if (comboBox1.SelectedIndex == 2)
-            {
-                label2.Text += comboBox1.Text;
-            }
-
-            else if (comboBox1.SelectedIndex == 3)
-            {*/
                 label2.Text += comboBox1.Text;
             
         }
