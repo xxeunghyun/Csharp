@@ -55,25 +55,7 @@ namespace _1
                     listBox2.Items.Add(chkbx[i].Text);
                 }
             }
-            /*
-             if (checkBox1.Checked == true)
-                  listBox2.Items.Add(checkBox1.Text);
-
-              if (checkBox2.Checked == true)
-                  listBox2.Items.Add(checkBox2.Text);
-
-              if (checkBox3.Checked == true)
-                  listBox2.Items.Add(checkBox3.Text);
-
-              if (checkBox4.Checked == true)
-                  listBox2.Items.Add(checkBox4.Text);
-
-              if (checkBox5.Checked == true)
-                  listBox2.Items.Add(checkBox5.Text);
-
-              if (checkBox6.Checked == true)
-                  listBox2.Items.Add(checkBox6.Text);
-                  */
+         
         }
     }
 }
