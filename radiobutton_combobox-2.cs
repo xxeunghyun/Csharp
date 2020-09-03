@@ -40,7 +40,7 @@ namespace _2
             }
 
             //combo box 
-            /*if(comboBox1.SelectedIndex == 0)
+            if(comboBox1.SelectedIndex == 0)
             {
                 label2.Text += comboBox1.Text;
             }
@@ -56,9 +56,9 @@ namespace _2
             }
 
             else if (comboBox1.SelectedIndex == 3)
-            {*/
+            {
                 label2.Text += comboBox1.Text;
-            
+            }
         }
     }
 }
